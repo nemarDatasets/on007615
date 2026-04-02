@@ -1,0 +1,21 @@
+{
+    "MeasurementToolMetadata": {
+        "Description": "UPPS-P Impulsive Behavior Scale. A 45-item self-report questionnaire measuring trait impulsivity across four subscales. Items are rated on a 1-4 Likert scale.",
+        "TermURL": "https://doi.org/10.1016/S0191-8869(00)00064-7"
+    },
+    "participant_id": {
+        "Description": "Unique participant identifier."
+    },
+    "upps_perseverance": {
+        "Description": "Lack of Perseverance subscale score. Higher scores indicate greater difficulty remaining focused on tasks that may be boring or difficult."
+    },
+    "upps_urgency": {
+        "Description": "Urgency subscale score. Higher scores indicate a stronger tendency to act rashly under conditions of strong negative affect."
+    },
+    "upps_premeditation": {
+        "Description": "Lack of Premeditation subscale score. Higher scores indicate a greater tendency to act without thinking or deliberating."
+    },
+    "upps_sensation_seeking": {
+        "Description": "Sensation Seeking subscale score. Higher scores indicate a greater tendency to enjoy and pursue activities that are exciting and novel."
+    }
+}

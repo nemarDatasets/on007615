@@ -1,0 +1,20 @@
+{
+    "MeasurementToolMetadata": {
+        "Description": "Beck Depression Inventory-II (BDI-II). A 21-item self-report questionnaire measuring depressive symptom severity over the preceding two weeks. Each item is scored 0-3, yielding a total score range of 0-63.",
+        "TermURL": "https://www.apa.org/pi/about/publications/caregivers/practice-settings/assessment/tools/beck-depression"
+    },
+    "participant_id": {
+        "Description": "Unique participant identifier."
+    },
+    "bdi_total": {
+        "Description": "BDI-II total score. Sum of all 21 items. Range: 0-63. Higher scores indicate greater depressive symptom severity."
+    },
+    "bdi_cog": {
+        "Description": "BDI-II cognitive-affective subscale score, based on the female-specific factor structure described by Dozois et al. (1998).",
+        "Derivative": true
+    },
+    "bdi_som": {
+        "Description": "BDI-II somatic subscale score, based on the female-specific factor structure described by Dozois et al. (1998).",
+        "Derivative": true
+    }
+}
