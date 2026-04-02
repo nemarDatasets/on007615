@@ -1,0 +1,166 @@
+{
+    "MeasurementToolMetadata": {
+        "Description": "Hormonal contraceptive usage questionnaire and menstrual cycle data. Administered as a paper-based questionnaire in Norwegian prior to EEG recording.",
+        "TermURL": ""
+    },
+    "participant_id": {
+        "Description": "Unique participant identifier."
+    },
+    "main_prev": {
+        "Description": "Main type of hormonal contraceptive currently used. Empty for non-users (group 2 and 3).",
+        "Levels": {
+            "1": "Progestin-only contraceptive",
+            "2": "Combined hormonal contraceptive (progestin + oestrogen)"
+        }
+    },
+    "gestagen_type": {
+        "Description": "Type of progestin in the current hormonal contraceptive, for participants using progestin-only methods (main_prev = 1). Empty for combined HC users and non-users.",
+        "Levels": {
+            "1": "Desogestrel (minipille; e.g., Cerazette, Desirett)",
+            "2": "Etonogestrel (p-stav/implant; e.g., Nexplanon)",
+            "3": "Levonorgestrel (hormon-spiral/IUD; e.g., Mirena, Kyleena)"
+        }
+    },
+    "combined_progestin_type": {
+        "Description": "Type of progestin in the current combined hormonal contraceptive (main_prev = 2). Empty for progestin-only users and non-users.",
+        "Levels": {
+            "1": "Levonorgestrel (combined oral contraceptive; e.g., Microgynon, Mirabella, Melleva)",
+            "2": "Etonogestrel (vaginal ring; e.g., NuvaRing)"
+        }
+    },
+    "oc_nonoc": {
+        "Description": "Indicates whether the participant uses an oral contraceptive or a non-oral method. Empty for non-users.",
+        "Levels": {
+            "1": "Oral contraceptive",
+            "2": "Non-oral contraceptive (implant, IUD, vaginal ring)"
+        }
+    },
+    "usage_reason": {
+        "Description": "Primary reason the participant uses hormonal contraceptives. Numbered according to the original questionnaire response options; only values 1 and 3 were endorsed. Empty for non-users.",
+        "Levels": {
+            "1": "Prevent pregnancy",
+            "2": "Reduce menstrual bleeding",
+            "3": "Relieve menstrual pain",
+            "4": "Regulate menstrual cycle",
+            "5": "Delay menstruation",
+            "6": "Treat acne",
+            "7": "Other"
+        }
+    },
+    "prev_duration": {
+        "Description": "Duration of use of the current hormonal contraceptive preparation. Empty for non-users.",
+        "Units": "years"
+    },
+    "age_start_prev": {
+        "Description": "Age at which the participant started using the current hormonal contraceptive preparation. Empty for non-users.",
+        "Units": "years"
+    },
+    "delay_mens": {
+        "Description": "Indicates whether the participant regularly delays menstruation using hormonal contraceptives. Empty for non-users.",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "delays_count": {
+        "Description": "Number of menstrual cycles delayed at a time. Empty if delay_mens = 2 or participant is a non-user."
+    },
+    "mood_delay": {
+        "Description": "Indicates whether the participant experiences mood changes (mood swings or low mood) when delaying menstruation. Empty if delay_mens = 2 or participant is a non-user.",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "delay_effects": {
+        "Description": "Indicates whether the participant experiences more or fewer side effects when delaying menstruation. Empty if delay_mens = 2 or participant is a non-user.",
+        "Levels": {
+            "1": "More side effects",
+            "2": "Fewer side effects"
+        }
+    },
+    "mood_usage": {
+        "Description": "Indicates whether the participant experiences mood changes (mood swings or low mood) from current hormonal contraceptive use. Empty for non-users.",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "usage_side_effects": {
+        "Description": "Indicates whether the participant experiences other side effects from current hormonal contraceptive use. Empty for non-users.",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "prior_other_types": {
+        "Description": "Indicates whether the participant has previously used other types of hormonal contraceptives (before the current one, or before discontinuation).",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "duration_prev_prior": {
+        "Description": "Duration of use of the previously used hormonal contraceptive. Empty if prior_other_types = 2.",
+        "Units": "years"
+    },
+    "age_start_prior": {
+        "Description": "Age at which the participant started using the previously used hormonal contraceptive. Empty if prior_other_types = 2.",
+        "Units": "years"
+    },
+    "prior_mood_change": {
+        "Description": "Indicates whether the participant experienced mood changes during prior hormonal contraceptive use.",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "prior_other_effects": {
+        "Description": "Indicates whether the participant experienced other side effects during prior hormonal contraceptive use.",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "horm_treatment": {
+        "Description": "Indicates whether the participant receives or has received hormonal treatment for a medical condition (distinct from contraceptive use).",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "preg_completed": {
+        "Description": "Indicates whether the participant has completed a pregnancy.",
+        "Levels": {
+            "1": "Yes",
+            "2": "No"
+        }
+    },
+    "last_preg": {
+        "Description": "Year of the participant's most recent completed pregnancy. Empty if preg_completed = 2.",
+        "Units": "year"
+    },
+    "cycle_length": {
+        "Description": "Self-reported typical length of the participant's menstrual cycle. Empty for participants who do not menstruate (e.g., due to hormonal contraceptive use).",
+        "Units": "days"
+    },
+    "cycle_phase": {
+        "Description": "Self-reported day of the menstrual cycle at the time of data collection. Empty for participants who do not menstruate or who were uncertain.",
+        "Units": "day of cycle"
+    },
+    "mens_phase": {
+        "Description": "Menstrual phase at the time of data collection, derived from cycle_phase and cycle_length. Empty for participants without cycle data.",
+        "Levels": {
+            "1": "Follicular phase",
+            "2": "Ovulatory phase",
+            "3": "Luteal phase"
+        }
+    },
+    "mens_phase_bin": {
+        "Description": "Binary classification of menstrual phase at the time of data collection. Empty for participants without cycle data.",
+        "Levels": {
+            "1": "First half of menstrual cycle (follicular/ovulatory)",
+            "2": "Second half of menstrual cycle (luteal)"
+        }
+    }
+}
