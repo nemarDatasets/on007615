@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "LDAEP and resting-state EEG in healthy women",
-  "description": "This dataset comprises EEG recordings from 69 healthy women (ages 19-40 years) acquired at the University of Oslo, featuring two complementary paradigms: loudness dependence of auditory evoked potentials (LDAEP) in 54 participants and resting-state recordings (eyes-open and eyes-closed) in all 69 participants. The study investigates the relationship between hormonal contraceptive use and central serotonergic activity, with concurrent collection of questionnaire data on contraceptive use, menstrual cycle phase, depressive symptoms, impulsivity, and lifestyle factors.",
-  "methods_description": "EEG data were recorded using a BioSemi ActiveTwo system with 64 Ag-AgCl electrodes positioned according to the extended 10-20 system (10-10) and 4 auxiliary oculogram channels, sampled at 2048 Hz. Resting-state recordings consisted of 4 minutes eyes-closed followed by 4 minutes eyes-open. LDAEP paradigm employed 1000 Hz tones at five intensity levels (55, 65, 75, 85, 95 dB SPL) with 80 trials per level. Raw data were stored in BrainVision format with standard software anti-aliasing filtering applied.",
+  "description": "This dataset comprises resting-state and loudness dependence of auditory evoked potentials (LDAEP) EEG recordings from 69 healthy women (ages 19-40 years) acquired at the University of Oslo. The study investigates the relationship between hormonal contraceptive use and central serotonergic activity indexed by LDAEP. Data include 64-channel EEG recordings at 2048 Hz sampling rate, alongside comprehensive phenotypic data on hormonal contraceptive use, menstrual cycle phase, depressive symptoms, impulsivity, and lifestyle factors.",
+  "methods_description": "EEG data were recorded using a BioSemi ActiveTwo system with 64 Ag-AgCl electrodes positioned according to the extended 10-20 system (10-10) at 2048 Hz sampling rate. Two paradigms were recorded per participant: resting-state (4 minutes eyes-closed followed by 4 minutes eyes-open; n=69) and LDAEP (1000 Hz tones at five intensity levels: 55, 65, 75, 85, and 95 dB SPL with 80 trials per level; n=54). Four auxiliary oculogram channels (HOG1, HOG2, VOG1, VOG2) were positioned near the outer canthi and above/below the right eye. Raw data were stored in BrainVision format with standard software anti-aliasing filtering applied.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,13 +22,16 @@
       "term": "resting-state"
     },
     {
-      "term": "serotonergic activity"
-    },
-    {
       "term": "hormonal contraceptives"
     },
     {
+      "term": "serotonergic activity"
+    },
+    {
       "term": "auditory evoked potentials"
+    },
+    {
+      "term": "women's health"
     }
   ],
   "related_identifiers": [
