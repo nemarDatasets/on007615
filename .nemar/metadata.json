@@ -1,34 +1,96 @@
 {
   "version": "2.0",
-  "dataset_id": "on007615",
-  "source": "openneuro",
-  "source_id": "ds007615",
+  "pipeline_stage": "validated",
   "title": "LDAEP and resting-state EEG in healthy women",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Henrik Normannseth": {},
     "Stein Andersson": {},
     "Christoffer Hatlestad-Hall": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007615.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007615",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007615",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.3389/fnhum.2025.1647425",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/sdata.2016.44",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.9.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
       "funder_name": "University of Oslo"
     }
-  ]
+  ],
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises EEG recordings from 69 healthy women (ages 19-40) acquired to investigate the relationship between hormonal contraceptive use and central serotonergic activity indexed by loudness dependence of auditory evoked potentials (LDAEP). Participants completed two paradigms: resting-state EEG (eyes-closed and eyes-open) and LDAEP with auditory stimulation at five intensity levels. The dataset includes 64-channel EEG recordings at 2048 Hz sampling rate alongside comprehensive phenotypic data on hormonal contraceptive use, menstrual cycle phase, depressive symptoms, impulsivity, and lifestyle factors.",
+  "methods_description": "EEG data were recorded using a BioSemi ActiveTwo system with 64 Ag-AgCl electrodes positioned according to the extended 10-20 system (10-10) and 4 auxiliary oculogram channels, sampled at 2048 Hz. Resting-state recordings consisted of 4 minutes eyes-closed followed by 4 minutes eyes-open. LDAEP paradigm employed 1000 Hz tones at five intensity levels (55, 65, 75, 85, 95 dB SPL) with 80 trials per level. Raw data were recorded in BrainVision format with standard software anti-aliasing filtering applied.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "loudness dependence of auditory evoked potentials"
+    },
+    {
+      "term": "serotonergic activity"
+    },
+    {
+      "term": "hormonal contraceptives"
+    },
+    {
+      "term": "resting-state"
+    },
+    {
+      "term": "auditory evoked potentials"
+    },
+    {
+      "term": "women's health"
+    }
+  ],
+  "source_hash": "7ea2642e37e62991f6dd69398fee612307f8af42cc633440546084e1fe3c16f5"
 }
