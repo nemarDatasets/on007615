@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007615-blue)](https://doi.org/10.82901/nemar.on007615)
+
 # LDAEP and resting-state EEG in healthy women
 
 ## The dataset at a glance
