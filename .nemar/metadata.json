@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "LDAEP and resting-state EEG in healthy women",
-  "description": "This dataset comprises resting-state and loudness dependence of auditory evoked potentials (LDAEP) EEG recordings from 69 healthy women (ages 19-40 years) acquired at the University of Oslo. The study investigates the relationship between hormonal contraceptive use and central serotonergic activity indexed by LDAEP. Data include 64-channel EEG recordings at 2048 Hz sampling rate, alongside comprehensive phenotypic data on hormonal contraceptive use, menstrual cycle phase, depressive symptoms, impulsivity, and lifestyle factors.",
-  "methods_description": "EEG data were recorded using a BioSemi ActiveTwo system with 64 Ag-AgCl electrodes positioned according to the extended 10-20 system (10-10) at 2048 Hz sampling rate. Two paradigms were recorded per participant: resting-state (4 minutes eyes-closed followed by 4 minutes eyes-open; n=69) and LDAEP (1000 Hz tones at five intensity levels: 55, 65, 75, 85, and 95 dB SPL with 80 trials per level; n=54). Four auxiliary oculogram channels (HOG1, HOG2, VOG1, VOG2) were positioned near the outer canthi and above/below the right eye. Raw data were stored in BrainVision format with standard software anti-aliasing filtering applied.",
+  "description": "This dataset comprises resting-state and loudness dependence of auditory evoked potentials (LDAEP) EEG recordings from 69 healthy women aged 19-40, collected at the University of Oslo. It was assembled to investigate the relationship between hormonal contraceptive use and central serotonergic activity as indexed by LDAEP. In addition to EEG data, the dataset includes phenotype data on hormonal contraceptive use, menstrual cycle phase, depressive symptoms (BDI-II), impulsivity (UPPS-P), and lifestyle factors.",
+  "methods_description": "EEG data were recorded using a BioSemi ActiveTwo system with 64 Ag-AgCl electrodes positioned according to the extended 10-20 (10-10) system, plus 4 auxiliary oculogram channels, at a sampling rate of 2048 Hz. Each participant underwent a resting-state recording (4 minutes eyes closed, 4 minutes eyes open) followed by an LDAEP paradigm (1000 Hz tones at 55, 65, 75, 85, and 95 dB SPL; 80 trials per level). Raw data are unfiltered except for a standard anti-aliasing filter, and were stored in BrainVision format.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,22 +16,26 @@
       "term": "EEG"
     },
     {
-      "term": "loudness dependence of auditory evoked potentials"
-    },
-    {
-      "term": "resting-state"
-    },
-    {
-      "term": "hormonal contraceptives"
-    },
-    {
-      "term": "serotonergic activity"
+      "term": "resting state"
     },
     {
       "term": "auditory evoked potentials"
     },
     {
-      "term": "women's health"
+      "term": "Serotonin",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012701"
+    },
+    {
+      "term": "hormonal contraceptives"
+    },
+    {
+      "term": "impulsivity"
+    },
+    {
+      "term": "Depression",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D003863"
     }
   ],
   "related_identifiers": [
@@ -48,7 +52,7 @@
     {
       "identifier": "10.3389/fnhum.2025.1647425",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "IsSupplementTo"
     },
     {
       "identifier": "10.21105/joss.01896",
@@ -69,6 +73,11 @@
       "identifier": "10.18112/openneuro.ds007615.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1037/1040-3590.10.2.83",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
   "funding_references": [
