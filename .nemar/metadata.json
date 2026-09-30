@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "LDAEP and resting-state EEG in healthy women",
-  "description": "This dataset comprises resting-state and loudness dependence of auditory evoked potentials (LDAEP) EEG recordings from 69 healthy women aged 19-40, collected at the University of Oslo. It was assembled to investigate the relationship between hormonal contraceptive use and central serotonergic activity as indexed by LDAEP. In addition to EEG data, the dataset includes phenotype data on hormonal contraceptive use, menstrual cycle phase, depressive symptoms (BDI-II), impulsivity (UPPS-P), and lifestyle factors.",
-  "methods_description": "EEG data were recorded using a BioSemi ActiveTwo system with 64 Ag-AgCl electrodes positioned according to the extended 10-20 (10-10) system, plus 4 auxiliary oculogram channels, at a sampling rate of 2048 Hz. Each participant underwent a resting-state recording (4 minutes eyes closed, 4 minutes eyes open) followed by an LDAEP paradigm (1000 Hz tones at 55, 65, 75, 85, and 95 dB SPL; 80 trials per level). Raw data are unfiltered except for a standard anti-aliasing filter, and were stored in BrainVision format.",
+  "description": "EEG recordings from 69 healthy women (aged 19-40) collected at the Department of Psychology, University of Oslo, to study the relationship between hormonal contraceptive use and central serotonergic activity indexed by the loudness dependence of auditory evoked potentials (LDAEP). Each participant completed eyes-closed and eyes-open resting-state recordings, and 54 also completed an LDAEP auditory paradigm. Phenotype data cover hormonal contraceptive use, menstrual cycle phase, depressive symptoms (BDI-II), impulsivity (UPPS-P), and lifestyle factors.",
+  "methods_description": "EEG was recorded with a BioSemi ActiveTwo system using 64 Ag-AgCl electrodes placed according to the extended 10-20 system, plus 4 EOG channels, at a 2048 Hz sampling rate. The resting-state recording (4 minutes eyes closed, then 4 minutes eyes open) was always done first. The LDAEP paradigm used 1000 Hz tones at five intensities (55, 65, 75, 85 and 95 dB SPL), with 80 trials per level. Raw data are stored in BrainVision format and were organised into BIDS with MNE-BIDS.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,26 +16,22 @@
       "term": "EEG"
     },
     {
-      "term": "resting state"
+      "term": "loudness dependence of auditory evoked potentials"
     },
     {
-      "term": "auditory evoked potentials"
-    },
-    {
-      "term": "Serotonin",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D012701"
+      "term": "resting-state"
     },
     {
       "term": "hormonal contraceptives"
     },
     {
-      "term": "impulsivity"
+      "term": "serotonin"
     },
     {
-      "term": "Depression",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003863"
+      "term": "Evoked Potentials, Auditory"
+    },
+    {
+      "term": "healthy women"
     }
   ],
   "related_identifiers": [
@@ -52,7 +48,7 @@
     {
       "identifier": "10.3389/fnhum.2025.1647425",
       "identifier_type": "DOI",
-      "relation_type": "IsSupplementTo"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "10.21105/joss.01896",
@@ -91,7 +87,7 @@
     "eeg"
   ],
   "sizes": [
-    "37.2 GB (581 files)"
+    "34.64 GB (581 files)"
   ],
   "formats": [
     ".eeg",
